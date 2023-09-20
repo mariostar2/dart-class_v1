@@ -11,8 +11,9 @@ mixin LoggingMixin{
 }
 
 //믹스인에 활용 -with 키워드 사용
-class User with LoggingMixin{
+class User with LoggingMixin {
   String name;
+
   User(this.name);
 }
 
